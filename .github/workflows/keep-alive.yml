@@ -2,7 +2,7 @@ name: Keep Repo Alive (Manual)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 00 * * *'
+    - cron: '00 13 * * *'
 
 jobs:
   keep-alive:
